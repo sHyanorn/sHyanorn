@@ -9,7 +9,7 @@ Algorithm engineering and server-side systems, with backend development next to 
 - **[ope-checks](https://github.com/sHyanorn/ope-checks)** · [page](https://shyanorn.github.io/projects/ope-checks/)
   Pre-registered checks of published off-policy evaluation results. On the two confirmatory campaigns of the Open Bandit benchmark, the IPS estimate pooled over both is 0.974 of the on-policy click rate (0.915 to 1.036 over ten-minute blocks): no shortfall shown.
 - **[retrieval-lab](https://github.com/sHyanorn/retrieval-lab)** · [page](https://shyanorn.github.io/projects/retrieval-lab/)
-  BM25 and dense retrieval in Go, where each component is accepted against a number that Pyserini publishes for BEIR. BM25 equals the published nDCG@10 and Recall@100 to four decimals on six datasets; BGE-base with exact search is within 0.0004 in nDCG@10 on five; TREC-COVID is not run.
+  BM25 and dense retrieval in Go, where each component is accepted against a number that Pyserini publishes for BEIR. BM25 equals the published nDCG@10 and Recall@100 to four decimals on six datasets; BGE-base with exact search is within 0.0006 in nDCG@10 on all six, and within 0.0004 on all but TREC-COVID.
 - **[seqrec-lab](https://github.com/sHyanorn/seqrec-lab)** · in progress
   A study of Transformer sequential recommenders (SASRec, BERT4Rec, gSASRec) on one consumer GPU: how robust published quality gaps are under equal tuning and several seeds. MovieLens-1M has its final runs and confirmatory analysis; the other three datasets have not run.
 
