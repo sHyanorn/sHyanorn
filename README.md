@@ -5,7 +5,7 @@ Algorithm engineering and server-side systems, with backend development next to 
 ### Algorithms
 
 - **[push-lab](https://github.com/sHyanorn/push-lab)** · [page](https://shyanorn.github.io/projects/push-lab/)
-  An offline lab for push notification recommendation on public data, from recall and ranking to send volume and timing, with every result labelled by how far it can be trusted without live traffic.
+  An offline lab for push notification recommendation: recall and ranking checked on public data, send volume and timing tested only in a simulator, with every result labelled by how far it can be trusted without live traffic.
 - **[ope-checks](https://github.com/sHyanorn/ope-checks)** · [page](https://shyanorn.github.io/projects/ope-checks/)
   Pre-registered checks of published off-policy evaluation results. On the two confirmatory campaigns of the Open Bandit benchmark, the IPS estimate pooled over both is 0.974 of the on-policy click rate (0.915 to 1.036 over ten-minute blocks): no shortfall shown.
 - **[retrieval-lab](https://github.com/sHyanorn/retrieval-lab)** · [page](https://shyanorn.github.io/projects/retrieval-lab/)
@@ -21,7 +21,7 @@ Algorithm engineering and server-side systems, with backend development next to 
 ### Backend systems
 
 - **[matching-engine](https://github.com/sHyanorn/matching-engine)** · [page](https://shyanorn.github.io/projects/matching-engine/)
-  Go limit order book with a write-ahead command log and open-loop load testing: 5.05M–6.95M commands/s in the core, p99 1.76 ms at 10k requests/s.
+  Go limit order book with a write-ahead command log and open-loop load testing: 5.05M–6.95M commands/s in the core, p99 1.76 ms at 10k requests/s and 41.1 ms at 50k, near saturation.
 
 ### Earlier
 
